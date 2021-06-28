@@ -27,11 +27,3 @@ test_integration_job:
   stage: test
   script:
     - echo 'Testing 2'
-
-deploy_dev_job:
-  stage: review
-  script:
-    - echo 'Deploy'
-  environment:
-    name: dev
-    url: http://dev.example.com
